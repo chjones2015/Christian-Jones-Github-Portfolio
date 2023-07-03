@@ -1,10 +1,11 @@
+/* Base styling for the entire document body */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
-
+/* Styling for the header section */
 header {
     background-color: #333;
     color: #ffffff;
@@ -20,7 +21,7 @@ header img {
     width: 100px;
     border-radius: 50%;
 }
-
+/* Styling for the navigation bar */
 nav {
     background-color: #ddd;
 }
@@ -42,7 +43,7 @@ nav ul li a {
     color: #333;
     font-size: 1.1em;
 }
-
+/* Styling for the main content area */
 main {
     margin: 20px;
 }
@@ -56,17 +57,14 @@ main p {
     color: #666;
     line-height: 1.6;
 }
-
+/* Styling for the images of work portfolio */
 #work a img {
     width: 20%;
     margin: 1%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-#work a img.featured {
-    width: 98%;
-}
-
+/* Styling for each section */
 section {
     margin-bottom: 20px;
+    list-style-type: none;
 }
