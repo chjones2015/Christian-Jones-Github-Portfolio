@@ -18,7 +18,7 @@ https://chjones2015.github.io/Christian-Jones-Github-Portfolio
 
 ## Credits
 
-Added files
+N/A
 
 ## License
 

@@ -1,14 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: #ddd;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
+    margin: 0;
 }
 
 nav ul li {
@@ -18,9 +39,34 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
 }
 
-img {
-    max-width: 20%;
-    height: auto;
+main {
+    margin: 20px;
+}
+
+main h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+main p {
+    color: #666;
+    line-height: 1.6;
+}
+
+#work a img {
+    width: 20%;
+    margin: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#work a img.featured {
+    width: 98%;
+}
+
+section {
+    margin-bottom: 20px;
 }
