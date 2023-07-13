@@ -2,15 +2,13 @@
 
 ## Description
 
----
+This is the professional portfolio of Christian Jones. The site highlights his skills, showcases his work with interactive images, and includes a link to his comprehensive resume. Its minimalist design shows commitment to clarity and efficiency in programming.
 
 ## Installation
 
 N/A
 
 ## Usage
-
----
 
 Link to webpage is below.
 
