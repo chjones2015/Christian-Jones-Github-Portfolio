@@ -69,39 +69,52 @@ section {
     list-style-type: none;
 }
 /* Styling for the works */
-#work {
-    width: 80%;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  body {
     font-family: Arial, sans-serif;
+    text-align: left; 
+  }
+  
+  #work {
+    width: 100%; 
   }
   
   #work h2 {
-    text-align: center;
     color: #333;
     padding-top: 20px;
   }
   
   #work ul {
-    list-style-type: none;  
-    padding: 0;  
-    display: flex;  
-    flex-wrap: wrap;  
-    justify-content: space-between;  
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
   }
   
   #work li {
-    flex-basis: 30%;  
-    max-width: 30%;  
-    margin-bottom: 20px;  
+    flex-basis: 32%;
+    max-width: 32%;
+    margin-bottom: 20px;
   }
   
   #work img {
-    width: 100%;  
-    height: auto;  
+    width: 100%;
+    height: auto;
+    opacity: 0.7; 
+    transition: opacity 0.3s; 
+  }
+  
+  #work img:hover { 
+    opacity: 1; 
   }
   
   #work a {
-    display: block;  
+    display: block;
   }
 
   
